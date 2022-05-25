@@ -1,6 +1,5 @@
 [
-    {
-        "animes" : [
+
             {
                 "name" : "Naruto",
                 "genre" : "Shonen",
@@ -18,11 +17,7 @@
                 "genre" : "Shoujo",
                 "theme" : "Isekai",
                 "cover" : "https://img1.ak.crunchyroll.com/i/spire2/0a111c02b8ec030ff6ae9943782484601576043538_full.jpg"
-            }
-        ]
-    },
-    {
-        "mangas" : [
+            },
             {
             "name" : "Ranma 1/2",
             "genre" : "Romance",
@@ -40,11 +35,7 @@
             "genre" : "Magical Girl",
             "theme" : "Action",
             "cover" : "https://img1.ak.crunchyroll.com/i/spire2/743b1abd76bc4fbe9b6df5427a0d08fb1459904360_full.jpg"
-            }
-        ]
-    },
-    {
-        "cartoons" : [
+            },
             {
             "name" : "Dexter's Lab",
             "genre" : "Comedy",
@@ -63,7 +54,5 @@
             "theme" : "Fantasy",
             "cover" : "https://flxt.tmsimg.com/assets/p8051630_b_v8_ay.jpg`"
             }
-        ]
 
-    }
 ]
