@@ -3,51 +3,60 @@
         {
             "name" : "Naruto",
             "genre" : "Shonen",
-            "theme" : "Action"
+            "theme" : "Action",
+            "cover" : "https://img1.ak.crunchyroll.com/i/spire4/5568ffb263f6bcba85a639980b80dd9a1612993223_full.jpg"
         },
         {
             "name" : "Fruits Basket",
             "genre" : "Shoujo",
-            "theme" : "Romance"
+            "theme" : "Romance",
+            "cover" : "https://img1.ak.crunchyroll.com/i/spire4/2ed7860327c766f1cad10c73338a61a91617747114_full.jpg"
         },
         {
             "name" : "Inuyasha",
             "genre" : "Shoujo",
-            "theme" : "Isekai"
+            "theme" : "Isekai",
+            "cover" : "https://img1.ak.crunchyroll.com/i/spire2/0a111c02b8ec030ff6ae9943782484601576043538_full.jpg"
         }
     ],
     "mangas" : [
         {
         "name" : "Ranma 1/2",
         "genre" : "Romance",
-        "theme" : "Slice of Life"
+        "theme" : "Slice of Life",
+        "cover" : "https://upload.wikimedia.org/wikipedia/en/thumb/1/10/Ranma1_2volume1.jpg/220px-Ranma1_2volume1.jpg"
         },
         {
         "name" : "Sword Art Online",
         "genre" : "Isekai",
-        "theme" : "Fantasy"
+        "theme" : "Fantasy",
+         "cover" : "https://img1.ak.crunchyroll.com/i/spire4/7d3070bc3f5e32a8187ceea7445013301594706429_full.jpg"
         },
         {
         "name" : "Sailor Moon",
         "genre" : "Magical Girl",
-        "theme" : "Action"
+        "theme" : "Action",
+        "cover" : "https://img1.ak.crunchyroll.com/i/spire2/743b1abd76bc4fbe9b6df5427a0d08fb1459904360_full.jpg"
         }
     ],
     "cartoons" : [
         {
         "name" : "Dexter's Lab",
         "genre" : "Comedy",
-        "theme" : "Sci-Fi"
+        "theme" : "Sci-Fi",
+        "cover" : "https://m.media-amazon.com/images/M/MV5BYjIzMzU4NWEtMzcwNy00N2E4LWExZmEtZDM1YTk0YzlkMDhmXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg"
         },
         {
         "name" : "Bee and Puppycat",
         "genre" : "Comedy",
-        "theme" : "Fantasy"
+        "theme" : "Fantasy",
+        "cover" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnZOqkz7VHHBhc9P0fF5BEnJbloFtlRggKR1aFTNro5ZDkw3Bo"
         },
         {
         "name" : "Adventure Time",
         "genre" : "Comedy",
-        "theme" : "Fantasy"
+        "theme" : "Fantasy",
+        "cover" : "https://flxt.tmsimg.com/assets/p8051630_b_v8_ay.jpg`"
         }
     ]
 
