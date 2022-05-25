@@ -1,0 +1,54 @@
+{
+    "animes" : [
+        {
+            "name" : "Naruto",
+            "genre" : "Shonen",
+            "theme" : "Action"
+        },
+        {
+            "name" : "Fruits Basket",
+            "genre" : "Shoujo",
+            "theme" : "Romance"
+        },
+        {
+            "name" : "Inuyasha",
+            "genre" : "Shoujo",
+            "theme" : "Isekai"
+        }
+    ],
+    "mangas" : [
+        {
+        "name" : "Ranma 1/2",
+        "genre" : "Romance",
+        "theme" : "Slice of Life"
+        },
+        {
+        "name" : "Sword Art Online",
+        "genre" : "Isekai",
+        "theme" : "Fantasy"
+        },
+        {
+        "name" : "Sailor Moon",
+        "genre" : "Magical Girl",
+        "theme" : "Action"
+        }
+    ],
+    "cartoons" : [
+        {
+        "name" : "Dexter's Lab",
+        "genre" : "Comedy",
+        "theme" : "Sci-Fi"
+        },
+        {
+        "name" : "Bee and Puppycat",
+        "genre" : "Comedy",
+        "theme" : "Fantasy"
+        },
+        {
+        "name" : "Adventure Time",
+        "genre" : "Comedy",
+        "theme" : "Fantasy"
+        }
+    ]
+
+}
