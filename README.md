@@ -22,3 +22,7 @@
 - Single-Page Application
 - Responsive UI
 - Clean Architecture
+
+## Contributors
+
+- Devon Cowherd
