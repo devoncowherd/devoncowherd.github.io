@@ -1,4 +1,3 @@
-data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 document.addEventListener('DOMContentLoaded', (event) => {
     const menuOptions = document.querySelectorAll('.menu-option');
     const contents = document.querySelectorAll('.content');
