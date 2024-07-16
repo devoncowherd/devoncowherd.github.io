@@ -1,4 +1,26 @@
-//js test
+data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+document.addEventListener('DOMContentLoaded', (event) => {
+    const menuOptions = document.querySelectorAll('.menu-option');
+    const contents = document.querySelectorAll('.content');
+
+    menuOptions.forEach(option => {
+        option.addEventListener('click', function() {
+            const page = this.getAttribute('data-page');
+            
+            menuOptions.forEach(opt => opt.classList.remove('selected'));
+            this.classList.add('selected');
+
+            contents.forEach(content => {
+                content.style.display = 'none';
+            });
+
+            document.getElementById(page).style.display = 'block';
+        });
+    });
+
+    // Show home page by default
+    document.querySelector('[data-page="home"]').click();
+});
 
 const objective = "We're off to save the princess!"
 
