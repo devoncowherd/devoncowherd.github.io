@@ -1,26 +1,119 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="script.js" defer></script>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet"> 
-        <link rel="stylesheet" href="style.css">
         <title>Devon Cowherd</title>
-    </head>
-    <body>
-        <div class="spacer" id="spacer">
-            <h1>
-                Error 204
-            </h1>
-            <h3>
-                We'll Be Right Back
-            </h3>
-            <div class="downTime">
-                <img src="https://httpstatusdogs.com/img/204.jpg">
-            </div>
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: 'Press Start 2P', cursive;
+        background-color: #000;
+        color: #fff;
+        overflow: hidden;
+    }
+    .game-screen {
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(135deg, #0f0f0f 25%, transparent 25%) -50px 0,
+                    linear-gradient(225deg, #0f0f0f 25%, transparent 25%) -50px 0,
+                    linear-gradient(315deg, #0f0f0f 25%, transparent 25%),
+                    linear-gradient(45deg, #0f0f0f 25%, transparent 25%);
+        background-size: 100px 100px;
+        background-color: #000;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu {
+        background-color: rgba(0,0,0,0.7);
+        padding: 20px;
+        border: 4px solid #fff;
+        width: 80%;
+        max-width: 600px;
+    }
+    .menu-title {
+        text-align: center;
+        color: #0f0;
+        font-size: 24px;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px #0a0;
+    }
+    .menu-options {
+        display: flex;
+        flex-direction: column;
+    }
+    .menu-option {
+        margin: 10px 0;
+        padding: 10px;
+        background-color: #000;
+        border: 2px solid #0f0;
+        color: #0f0;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+    .menu-option:hover, .menu-option.selected {
+        background-color: #0f0;
+        color: #000;
+    }
+    .content {
+        margin-top: 20px;
+        padding: 20px;
+        background-color: rgba(0,0,0,0.7);
+        border: 2px solid #0f0;
+        display: none;
+    }
+    .pixel-art {
+        image-rendering: pixelated;
+        width: 64px;
+        height: 64px;
+    }
+</style>
+        <script defer src="scripts.js"></script>
+   
+</head>
+<body>
+<div class="game-screen">
+    <div class="menu">
+        <h1 class="menu-title">PortGameIO</h1>
+        <div class="menu-options">
+            <div class="menu-option" data-page="home">Home</div>
+            <div class="menu-option" data-page="about">About</div>
+            <div class="menu-option" data-page="projects">Projects</div>
+            <div class="menu-option" data-page="contact">Contact</div>
         </div>
-    </body>
+    </div>
+    <div id="home" class="content">
+        <h2>Welcome to PortGameIO</h2>
+        <p>Select a menu option to explore my software engineering portfolio!</p>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAAHdbkFIAAABhUlEQVR4nO2aQW7DMAxEn9sG6CV6/yP0FK3Nm6VCIIQh5SEpaUm8m0DwkJH4RcoOoqoAeATwAuANwMPCPhE4AngH8AbgraKD54UXPws4R+N5QQeUJVNhKgosQ4FlKLAMBZahwDIUWIYCy1BgGQosQ4FlKLAMBZahwDIUWIYCy1BgGQosQ4FlKLAMBZahwDIUWIYCy1BgGQos8xN4zs8Jff0GcOP8+9+PXjFOC6+TTZScQ+GonA04F97jKjjHkv+FqwRO/5NzLxpUVZ8AvKrqk6rq0vNfhZO/VdUvEXmuOE+IqD/E8yHXFj8Zl8gLb+lZWDc9zTaaiGD057M9xc/vxoeo6sHp2zE4z8PHB/oGXPtg+CQiicjT0eDZt3OgvQRU9aCqLwC+VPXoqfwV8O/nffYFiBx4qKTAffcgrzxbY0Rk9OezPc2fhxj7AI4+4ANt/4VD6IM9LrIC+Jn8fGxQX76xbnJ6FrcqvsbNtuvzSFHcgBY3oMUNaHEDWtyAFjegxQ1ocQNa/gC32nXspfP6+gAAAABJRU5ErkJggg==" alt="Pixel art avatar of a software engineer" class="pixel-art">
+    </div>
+    <div id="about" class="content">
+        <h2>About Me</h2>
+        <p>I'm a passionate software engineer with a love for clean code and innovative solutions. My skills include:</p>
+        <ul>
+            <li>Full-stack web development</li>
+            <li>Mobile app development</li>
+            <li>Cloud computing and DevOps</li>
+            <li>Machine learning and AI</li>
+        </ul>
+    </div>
+    <div id="projects" class="content">
+        <h2>My Projects</h2>
+        <ul>
+            <li>AI-powered Chess Engine</li>
+            <li>Blockchain-based Voting System</li>
+            <li>Cross-platform Mobile Game</li>
+            <li>IoT Home Automation System</li>
+        </ul>
+    </div>
+    <div id="contact" class="content">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out for collaborations or opportunities!</p>
+    </div>
+</div>
+<script>
+</script>
+</body>
 </html>
