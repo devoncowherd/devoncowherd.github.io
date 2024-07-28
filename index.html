@@ -1,27 +1,76 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>DevonIO</title>
-        <meta chatset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="style.css">
-        <script defer src="scripts.js"></script>
-   
+<head> 
+    <!--Coded on Mobile :)-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="description" content="Heres a bit of a portfolio and playground for me! (Thanks GH!)"> 
+
+<meta name="keywords" content="human :), portfolio, Devon Cowherd, "Android development, Android Studio,Kotlin, Java, Android SDK, Android NDK, XML, JSON,REST APIs, SQLite, Firebase, Git, Agile/Scrum, Unit testing, Debugging, UI/UX, painting, AI, Prompt Engineering, Games, JS, Javascript, OOP, HTML, HTML5, CSS, Material Design">
+
+<title>Devon Cowherd</title> 
+
+<!--//TODO: Sanitize contact sheet ->For more information, please contact me @ -->
+<!--https://devoncowherd.github.com-->
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+<script defer src="scripts.js"></script>
+
 </head>
+
 <body>
-    <div name="console">
-        <div name="game-screen"> </div>       
-    
-<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="32" cy="32" r="28" stroke="black" stroke-width="4"/>
-  <line x1="32" y1="12" x2="32" y2="28" stroke="black" stroke-width="4"/>
-  <line x1="32" y1="36" x2="32" y2="52" stroke="black" stroke-width="4"/>
-  <line x1="12" y1="32" x2="28" y2="32" stroke="black" stroke-width="4"/>
-  <line x1="36" y1="32" x2="52" y2="32" stroke="black" stroke-width="4"/>
-</svg>
+  <div class="header">
+    <h1 class="HeaderText">Home</h1>
+  </div>
+  <nav class="nav">
+    <button class="nav-button" onclick="showView('Home')">
+    <i class="material-symbols-outlined">
+home
+</i>
+    </button>
+    <button class="nav-button" onclick="showView('About')">
+         <i class="material-symbols-outlined">
+emoji_people
+</i>
+    </button>
+    <button class="nav-button" onclick="showView('Art')">
+       <i class="material-symbols-outlined">
+palette </i>
+    </button>
+    <button class="nav-button" onclick="showView('Apps')">
+             <i class="material-symbols-outlined"> terminal </i>
+    </button>
+  </nav>
+  <div class="content">
+    <div id="Home" class="view active">
+      <h2>Home</h2>
+      <p class="CoSo"></p>
+      <img src="https://raw.githubusercontent.com/devoncowherd/devoncowherd.github.io/main/assets/images/main/message/comingSoon.png">
     </div>
-<script>
-</script>
+    <div id="About"  class="view">
+      <h2>About</h2>
+      <p class="CoSo"></p>
+      <img src="https://raw.githubusercontent.com/devoncowherd/devoncowherd.github.io/main/assets/images/main/message/comingSoon.png">
+    </div>
+    <div id="Art" class="view">
+      <h2>Art</h2>
+      <p class="CoSo"></p>
+      <img src="https://raw.githubusercontent.com/devoncowherd/devoncowherd.github.io/main/assets/images/main/message/comingSoon.png">
+    </div>
+    <div id="Apps" class="view">
+      <h2>Apps</h2>
+      <p class="CoSo"></p>
+      <img src="https://raw.githubusercontent.com/devoncowherd/devoncowherd.github.io/main/assets/images/main/message/comingSoon.png">
+      <ul class="appCategory">
+      </ul>
+    </div>
+  </div>
+
+  <script>
+
+  </script>
 </body>
 </html>
