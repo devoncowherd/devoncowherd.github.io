@@ -1,7 +1,7 @@
 const homepage = "devoncowherd.com";
-const delay = 10000;
+const delay = 5000;
 const redirect = function() {
-  window.location.assign(homepage);
+  window.location.replace(homepage);
 }
 
-setTimeout(redirect, timeout);
+setTimeout(redirect, delay);
