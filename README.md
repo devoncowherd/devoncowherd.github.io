@@ -1,6 +1,6 @@
 # Devspace
 
-[Website, portfolio, playground, and home.](devoncowherd.github.com)
+Website, portfolio, playground, and home.
 
 ## Description
 
