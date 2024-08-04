@@ -1,12 +1,20 @@
-# Devspace
+# DevonCowherd.com
 
-Website, portfolio, playground, and home.
+This project will serve as a hub for all my projects.
 
 ## Description
 
-A simple mobile-first single-page application with everything I want and need on-the-go.
+A simple hub that redirect to my applications, projects, art, blogs, and general information.
 
-## Getting Started
+### Technologies
+
+- Google Cloud Platform
+- MariaDB
+- Apache2
+- HTML5
+- CSS
+- Javascript
+
 
 ### Requirements
 
@@ -24,11 +32,11 @@ A simple mobile-first single-page application with everything I want and need on
 ## Authors
 
 - Devon Cowherd
-     - Contact via GitHub
+     - Contact via GitHub for now
 
 ## Version History
 
-- TBA
+- 1.0.0: soft launch of pre-alpha stack
 
 ## License
 
