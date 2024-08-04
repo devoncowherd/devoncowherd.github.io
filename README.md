@@ -4,7 +4,7 @@ This project will serve as a hub for all my projects.
 
 ## Description
 
-A simple hub that redirect to my applications, projects, art, blogs, and general information.
+A simple hub that directs visirors to my applications, projects, art, blogs, and general information.
 
 ### Technologies
 
